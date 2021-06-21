@@ -1,0 +1,27 @@
+.infographic {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0 auto;
+    
+    &__wrapper {
+        background: url(../images/infographic/bg.svg) no-repeat;
+        height: 582px;
+        max-width: 1440px;
+    }
+    &__subtitle{
+        @include font (10px, 500, 11px, $titleColor);
+    }
+    &__title{
+        @include font (48px, 300, 60px, $titleColor);
+    }
+    &__title-bold{
+        @include font (48px, 500, 60px, $titleColor);
+    }
+    &__text{
+        @include font (17px, 300, 28px, $textColor);
+    }
+    &__btn {
+        width: 52px;
+        height: 52px;
+        background-color: $primaryColor;
+    }
+}

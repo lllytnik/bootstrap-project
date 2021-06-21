@@ -1,0 +1,29 @@
+.header {
+    font-family: 'Quicksand', sans-serif;
+
+    &__logo{
+        margin-right: 50px;
+    }
+
+    &__link{
+        @include font (12px, 600, 15px, $linkColor);
+    }
+    .container{
+        max-width: 1200px;
+    }
+
+    &__btn {
+        width: 113px;
+        height: 43px;
+        margin-left: 30px;
+        border: none;
+        background-color: $secondaryColor;
+        @include font (13px, 600, 16px, $primaryColor);
+
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+    }
+}

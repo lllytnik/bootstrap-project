@@ -1,0 +1,51 @@
+.demo {
+    font-family: 'Quicksand', sans-serif;
+    background-color: $bgColor; 
+
+    &__wrapper{
+        max-width: 1440px;
+        margin: 0 auto;
+        background: url(../images/demo/illustration.png) no-repeat;
+        background-position: 100% 90px;
+    }
+    &__inner{
+        margin: 200px 0 200px 0;
+    }
+
+    .container{
+        max-width: 910px;
+    }
+    &__subtitle{
+        @include font (10px, 500, 11px, $titleColor);
+    }
+    &__title{
+        @include font (36px, 400, 45px, $titleColor);
+    }
+    &__title-bold{
+        @include font (36px, 500, 45px, $titleColor);
+    }
+    &__text{
+        @include font (15px, 400, 28px, $textColor);
+    }
+    &__btn-group {
+        margin-top: 30px;
+    }
+    &__btn {
+        width: 130px;
+        height: 43px;
+        border: none;
+        background-color: $assetsColor;
+        @include font (13px, 700, 16px, $primaryColor);
+        border-radius: 2px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+
+        &:last-child{
+            background-color: transparent;
+            border: 1px solid #D1D1E4;
+            color: #ADB4D2;
+        }
+    }
+}
