@@ -513,6 +513,33 @@ template {
       position: absolute;
       background-color: #ADB3CB; }
 
+.indicators {
+  font-family: 'Quicksand', sans-serif; }
+  .indicators__wrapper {
+    width: 100%;
+    min-height: 340px; }
+    .indicators__wrapper:first-child {
+      background-color: #6888FF; }
+    .indicators__wrapper:last-child {
+      background-color: #E9EFFF; }
+  .indicators__box {
+    max-width: 330px;
+    width: 100%; }
+  .indicators__span {
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 83px;
+    color: #fff; }
+  .indicators__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23px;
+    color: #fff; }
+  .indicators__span--right {
+    color: #4C85FF; }
+  .indicators__text--right {
+    color: #4C85FF; }
+
 /* === COMPONENTS === */
 
 /*# sourceMappingURL=style.min.css.map */

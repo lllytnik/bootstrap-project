@@ -1,0 +1,33 @@
+.indicators {
+    font-family: 'Quicksand', sans-serif;
+
+    &__wrapper {
+        width: 100%;
+        min-height: 340px;
+
+        &:first-child {
+            background-color: #6888FF;
+        }
+
+        &:last-child {
+            background-color: #E9EFFF;
+        }
+    }
+    &__box{
+        max-width: 330px;
+        width: 100%;
+        
+    }
+    &__span{
+        @include font (48px, 400, 83px, $primaryColor);
+    }
+    &__text{
+        @include font (18px, 500, 23px, $primaryColor);
+    }
+    &__span--right{
+        color: $assetsColor;
+    }
+    &__text--right{
+        color: $assetsColor;
+    }
+}
